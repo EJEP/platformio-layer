@@ -1,0 +1,17 @@
+#+TITLE: platformio layer
+
+# TOC links should be GitHub style anchors.
+* Table of Contents                                        :TOC_4_gh:noexport:
+- [[#description][Description]]
+- [[#install][Install]]
+
+* Description
+Layer to enable [[https://github.com/ZachMassia/PlatformIO-Mode][PlatformIO Mode]]. My knowledge of emacs lisp is terrible, any
+improvements are welcome.
+
+* Install
+To use this configuration layer, add it to your =~/.spacemacs=. You will need to
+add =platformio= to the existing =dotspacemacs-configuration-layers=
+list in this file. Also, the layer needs to be wherever you store your private
+layers.
+
